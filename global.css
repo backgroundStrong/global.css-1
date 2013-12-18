@@ -1,0 +1,30 @@
+/**
+ *     CLASSES
+ */
+
+.inlineblock {
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    position:relative;
+    vertical-align:top;
+}
+
+.clear {
+    width:0px;
+    height:0px;
+    clear:both;
+}
+
+/**
+ *     DEFAULT GLOBALS
+ */
+html {
+    margin:0px;
+    padding:0px;
+}
+body {
+    margin:0px;
+    padding:0px;
+}
